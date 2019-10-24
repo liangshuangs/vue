@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "mis@/*": ["./src/index/*"],
+      "mis@assets/*": ["./src/pages/index/assets/*"],
+      "mis@common/*": ["./src/pages/index/common/*"],
+      "mis@router/*": ["./src/pages/index/router/*"],
+      "mis@server/*": ["./src/pages/index/server/*"],
+      "mis@store/*": ["./src/pages/index/store/*"],
+      "mis@views/*": ["./src/pages/index/views/*"]
+    }
+  },
+  "include": ["./src/**/*", "serviceWorker.js"]
+}

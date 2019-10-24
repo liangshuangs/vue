@@ -1,0 +1,18 @@
+@import 'mis@assets/vars.scss';
+.el-container {
+  height: 100%;
+}
+.el-header {
+  background: $colorWhite;
+}
+.el-aside {
+  height: 100vh;
+  background: $colorNav;
+  color: $colorWhite;
+  text-align: center;
+}
+.el-main {
+  margin-top: 10px;
+  background: $colorWhite;
+  height: calc(100vh - 70px);
+}
